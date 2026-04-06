@@ -1,0 +1,22 @@
+//////////////////////////////////////////////////////////////////MINHA ATIVIDADE////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Previsão de Calorias (ML Prática)</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@latest"></script>
+</head>
+
+<body>
+
+  <h2>Previsão de Calorias (IA de verdade)</h2>
+  <p>Digite os minutos de exercício para prever as calorias queimadas:</p>
+
+  <input type="number" id="minutos" placeholder="Ex: 5">
+  <button onclick="treinarEPrever()">Treinar e Prever</button>
+
+  <h3 id="status">Status: Aguardando...</h3>
+  <h2 id="resultado"></h2>
+
+  <script src="script.js"></script>
+</body>
+</html>
